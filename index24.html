@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+<link rel="stylesheet" href="style24.css">
+<script src="https://kit.fontawesome.com/b2e54dee8a.js" crossorigin="anonymous"></script>
+    <title>Blog Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div id="header" >
+    <div class="container">
+<nav>
+    <img src="logo.jpg" class="logo">
+    <ul id="sidemenu">
+<li><a href="#header">Home</a></li>
+<li><a href="#about">About</a></Li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#blog dashboard">blog dashboard</a></li>
+<i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+
+</div>
+<script src="script.js"></script>
+<div class="header-text">
+    <p>UI/UX Designer</p>
+    <h1>Hi, we are<span> Denyse and </span><br>Hollyness from Rwanda</h1>
+</div>
+</div>
+   </div>
+  <!-- ---------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="me.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About us</h1>
+                <p>
+                    Hello once again we are web designers and developers ,we are capable of every detail in software development 
+                    with help of our website you will earn more imformation within short time ,and also to be updated on trendings and news
+                    you will have experience of using different kinds of computer languages like;css,Html and javascript etc
+                    so guys your presence will be highly aprreciated hope that we will enjoy to work with you and don't forget to invite others
+                    BE BLESSED
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                        <li><span>Web Development</span><br>Designing web app D evelopment</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                    <li><span>2020 - current</span><br>UX/UI Design Training at ET institute</li>
+                    <li><span>2021 - 2022</span><br>Team lead at starApp LLC</li>
+                    <li><span>2022 - 2023</span><br> UI/UX Executive at e-shure IT company</li>
+                    <li><span>2024 - 2025</span><br>Internship at Solvit africa</li>
+                    </ul>
+                </div><br>
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>UI/UX Design Training at ET institute</li>
+                        <li><span>2022</span><br>MBA from MIT Bangalore</li>
+                        <li><span>2025</span><br>BBA from ESSA Nyarugunga </li>
+                    </ul>
+                </div>
+                </div>
+                
+
+        </div>
+    </div>
+</div>
+<!-- ---------services--------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our services</h1>
+        <div class="services-list">
+            <div >
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>we are here to give you skills you want about all computer languages</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p> we are here to give you want is the bst for you
+                     by giving you full skills about Designing web</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>we are available to help you to improve your skills about 
+                    Designing application</p>
+                    <a href="#">Learn more</a>
+                
+            </div>
+            
+
+        </div>
+    </div>
+ </div>
+<!-- ----------portfolio------------ -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our work</h1>
+        <div class="Work-list">
+            <div class="work">
+                <img src="phone1.jpg" style="height: 500px; width: 400px; display: inline-block;">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>     
+            </div>
+        </br>
+           <div class="work" >
+            <img src="phone2.jpg" style="height: 500px; width: 400px; display: inline-block;">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>
+                    The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+           </div>
+        </br>
+           <div class="work">
+            <img src="phone3.jpg" style="height: 500px; width: 400px; display: inline-block;">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+           </div>
+        </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-- ----------contact------------- -->
+  <div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p> <i class="fa-solid fa-phone"></i>0794411836/0722461215</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    </div>
+                <a href="Carine_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your Name" required>
+                   <input type="text" name="Email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                   <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Blog Dashboard</h1>
+        <form id="postForm">
+            <input type="text" id="title" placeholder="Post Title" required>
+            <textarea id="content" placeholder="Post Content" required></textarea>
+            <button type="submit">Add Post</button>
+        </form>
+        <div id="postsContainer">
+            <h2>Posts</h2>
+            <ul id="postsList"></ul>
+        </div>
+    <div class="copyright">
+        <p>copyright @ Deho.Made with<i class="fa-solid fa-heart"></i> by us
+    </div>
+  </div>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links")
+var tabcontents = document.getElementsByClassName("tab-contents")
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab"); 
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    
+</script>
+<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxCuUvnR3NohEczNnrkzDkc5Peq30H4NG7XXU_uTUHWucAwzxrRAz22gI6etmsPYMul/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
